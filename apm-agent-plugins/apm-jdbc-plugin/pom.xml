@@ -9,11 +9,11 @@
 
     <artifactId>apm-jdbc-plugin</artifactId>
     <name>${project.groupId}:${project.artifactId}</name>
-    <!--Required for the oracle driver-->
+    <!-- Required for the oracle driver -->
     <repositories>
         <repository>
-            <id>atlassian</id>
-            <url>https://maven.atlassian.com/3rdparty/</url>
+            <id>hand-china</id>
+            <url>http://nexus.saas.hand-china.com/content/repositories/rdc/</url>
         </repository>
     </repositories>
 
@@ -79,10 +79,10 @@
             <version>6.4.0.jre9</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
+         <dependency>
             <groupId>com.oracle</groupId>
-            <artifactId>ojdbc6</artifactId>
-            <version>12.1.0.1-atlassian-hosted</version>
+            <artifactId>ojdbc7</artifactId>
+            <version>12.1.0.2</version>
             <scope>test</scope>
         </dependency>
 
